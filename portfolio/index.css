@@ -4,6 +4,16 @@
     box-sizing:border-box ;
     background-color: #f5fdfd;
 } 
+/* scroll bar */
+::-webkit-scrollbar{
+    
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    border: 1px solid blue;
+    background: linear-gradient(rgb(0, 255, 255),rgb(255, 255, 255));
+    border-radius:3px;
+}
 body{
     overflow-x: hidden;
 }
